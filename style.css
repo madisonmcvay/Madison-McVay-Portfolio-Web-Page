@@ -1,0 +1,86 @@
+/* Header containing title of page and job title. I could not quite get the spacing I wanted on the this without the font being far too big. I felt like this was a good medium. I chose this color to match my shirt as best I could. I felt like if I went any lighter to get a better match, it would not have contrasted as well with the main sections background color.  */
+
+h1 {
+  text-align: center;
+  background-color: #add8e6; 
+
+}
+
+header {
+  text-align: center;
+  background-color: #add8e6;
+  padding: 5px;
+  font-size: 22px;
+  border: 2.5px solid #000000;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Main content; interests, about me, and contact info. I wanted to keep the background color light and neutral. I increased the height of the hr's to separate the sections a bit because I felt lke they were too stacked on top of eachother. */
+
+main {
+  background-color: #ffebcd;
+  padding: 5px
+}
+
+hr {
+  height:2.5px;
+  color: #000000;
+  background-color: #000000;
+}
+
+div {
+  text-align: center;
+  padding:20px;
+}
+
+body {
+  margin: 0;
+}
+
+.intro-statement {
+  text-align: center;
+}
+
+.interests, .interests-list {
+  text-align: left;
+}
+
+h2, h3 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  
+}
+
+.about-me {
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Links to my LinkedIn and GitHub. I was going to include my email as well, but I could not figure out how to link it. I used a series of blues to somewhat match the color scheme I had going.  */
+
+a:link {color: #0000ff}
+a:visited {color: #1e90ff}
+a:hover {color: #87cefa}
+a:active {color: #add8e6}
+
+/* This section's spacing is off, but I could not get it any closer without a white line appearing below the links. I was having this issue with the entire page for awhile, but finally got it adjusted when I set the padding and margin to 0 for the entire page, and changed the individual padding for certain sections. If there is another way to appraoch this, I would be happy to hear it. */
+
+.contact {
+ text-align: center;
+  padding: 10px;
+}
+
+/* Footer containing copyright info. I did not know if I needed to put the symbol or how I would go about getting that aside from downloading an image of it from google, so I just used the word "copyright". */ 
+
+footer {
+ background-color: #add8e6;
+  text-align: center;
+  padding: 30px;
+  border: 2.5px solid #000000
+}
+
+/* In comparison to the "Jenny Thinkful" model, I could not quite figure out how to center everything in a similar way. I feel like my sections are a little too close together too. I apperciate all feedback you can give. */ 
