@@ -1,11 +1,11 @@
-/* Header containing title of page and job title. I could not quite get the spacing I wanted on the this without the font being far too big. I felt like this was a good medium. I chose this color to match my shirt as best I could. I felt like if I went any lighter to get a better match, it would not have contrasted as well with the main sections background color.  */
-
+/* Header containing title of page and job title. These should both be centered in the middle of the page. The background color should be displayed as LightBlue.  */
 h1 {
   text-align: center;
   background-color: #add8e6; 
 
 }
 
+/* The header's alignment should be in the center of the page. The background color should be LightBlue. I used five pixels of padding to fill in any white space that was present before. I used a 2.5 pixel border to help create a slightly stronger contrast between sections. */
 header {
   text-align: center;
   background-color: #add8e6;
@@ -15,24 +15,26 @@ header {
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* Main content; interests, about me, and contact info. I wanted to keep the background color light and neutral. I increased the height of the hr's to separate the sections a bit because I felt lke they were too stacked on top of eachother. */
-
+/* Main content; interests, about me, and contact info. I wanted to keep the background color light and neutral. I increased the height of the hr's to separate the sections a bit because I felt like they were too stacked on top of eachother. */
 main {
   background-color: #ffebcd;
   padding: 5px
 }
 
+/* I increased the height of the horizontal ruler to 2.5 pixels to create a little bit more contrast between sections. */
 hr {
   height:2.5px;
   color: #000000;
   background-color: #000000;
 }
 
+/* I used this div to center the image. I set the padding to 20 pixels to help fill in some extra space. */
 div {
   text-align: center;
   padding:20px;
 }
 
+/* I set the margin in the body to zero to eliminate the white perimeter that was around the entire page. */
 body {
   margin: 0;
 }
@@ -41,10 +43,12 @@ body {
   text-align: center;
 }
 
+/* I kept interests and interest list aligned to the left because in the center it threw off the bullet point alignment in the unordered list. */
 .interests, .interests-list {
   text-align: left;
 }
 
+/* I increased the font size in heading two and three because this font type made the original size too small. I felt as though it looked odd on the page. */
 h2, h3 {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
@@ -61,26 +65,22 @@ p {
 }
 
 /* Links to my LinkedIn and GitHub. I was going to include my email as well, but I could not figure out how to link it. I used a series of blues to somewhat match the color scheme I had going.  */
-
 a:link {color: #0000ff}
 a:visited {color: #1e90ff}
 a:hover {color: #87cefa}
 a:active {color: #add8e6}
 
-/* This section's spacing is off, but I could not get it any closer without a white line appearing below the links. I was having this issue with the entire page for awhile, but finally got it adjusted when I set the padding and margin to 0 for the entire page, and changed the individual padding for certain sections. If there is another way to appraoch this, I would be happy to hear it. */
-
+/* This section's spacing is off, but I could not get it any closer without a white line appearing below the links. I was having this issue with the entire page for awhile, but finally got it adjusted when I set the padding and margin to 0 for the entire page, and changed the individual padding for certain sections. If there is another way to approach this, I would be happy to hear it. */
 .contact {
  text-align: center;
   padding: 10px;
 }
 
 /* Footer containing copyright info. I did not know if I needed to put the symbol or how I would go about getting that aside from downloading an image of it from google, so I just used the word "copyright". */ 
-
 footer {
  background-color: #add8e6;
   text-align: center;
   padding: 30px;
   border: 2.5px solid #000000
 }
-
-/* In comparison to the "Jenny Thinkful" model, I could not quite figure out how to center everything in a similar way. I feel like my sections are a little too close together too. I apperciate all feedback you can give. */ 
+/* In comparison to the "Jenny Thinkful" model, I could not quite figure out how to center everything in a similar way. I feel like my sections are a little too close together too. I appreciate all feedback you can give. */ 
